@@ -41,14 +41,19 @@ de regel .kaart li:nth-child(odd) - ik begreep niet echt goed hoe het werkte
 ## 6. Je site
 
 - Welke drie waarden staan in je tokenblok, en waarom die?
+--achtergrond, --tekst en --accent:
+--achtergrond: om een achtergrondkleur te geven
+--tekst omdat het de kleur van de tekst veranderd 
+--accent  omdat het de kleur van de nav links veranderd
 - Wat verandert er in je site als je één token wijzigt?
+als ik er 1 veranderd, wijzigen die automatisch op mijn website
 
 ## Thuis: R2.3 (met AI)
 
 Prompt en onbewerkte output staan in `review/`. Minstens vijf bevindingen, elk met een verwijzing naar de sectie of het foutnummer:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Pixels (2.8): De AI gebruikt px in plaats van rem. Dit is niet volgens de opdracht.
+2. Tokens (2.9): De AI gebruikt :root en var() voor de kleuren. Dit is goed.
+3. Selectors (2.4): De AI gebruikt nav a om de navigatielinks te selecteren. Dit is correct
+4. Zebrapatroon (2.5): De AI gebruikt :nth-child(odd) om de oneven rijen een kleur te geven. Dit werkt goed.
+5. Hover en focus (2.5): De AI gebruikt :hover en :focus om links te laten veranderen. Dit is      correct.
